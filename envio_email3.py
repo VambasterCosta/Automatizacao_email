@@ -6,7 +6,6 @@ import codecs
 import getpass
 import random
 
-#Definição dos atributos ESTÁTICOS
 
 class mailTo:
 
