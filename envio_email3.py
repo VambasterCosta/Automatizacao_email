@@ -29,7 +29,7 @@ class mailTo:
 
     def enviarEmail(self):
         logs = open('logs.txt','a')
-        logs.write("Iniciando Envio de email ["+time.strftime('%d-%m-%Y %H:%M:%S', time.localtime())+"]...")
+        logs.write("Iniciando Envio de email ["+time.strftime('%d-%m-%Y %H:%M:%S', time.localtime())+"]...\n")
 
         file = self.file
         mail_content = file.read()
