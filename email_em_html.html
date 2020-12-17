@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Envio de email Personalizado</title>
+    <style type="text/css">
+        * {
+            font-family: sans-serif;
+        }
+
+        a {
+            color: #560101;
+        }
+
+
+
+        body,
+        #header h1,
+        #header h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            max-width: 70vw;
+            margin: 2em auto;
+        }
+
+        #main {
+            border: 1px solid #5f5a5a;
+            border-radius: 10px;
+        }
+
+        img {
+            display: block;
+        }
+
+        h1 {
+            color: #532e1c;
+        }
+
+        #table {
+            border-radius: 50px;
+            background-color: #e6e6e6;
+            width: 100%;
+        }
+
+        #top-message p,
+        #bottom p {
+            color: #532e1c;
+            font-size: 12px;
+
+        }
+
+        #header h2 {
+            color: #532e1c !important;
+
+            font-size: 24px;
+            margin-bottom: 0 !important;
+            padding-bottom: 0;
+        }
+
+        #header p {
+            color: #ffffff !important;
+            font-size: 12px;
+        }
+
+        h5 {
+            margin: 0 0 0.8em 0;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: #444444 !important;
+        }
+
+        p {
+            font-size: 12px;
+            color: #444444 !important;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="table" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table id="top-message" cellpadding="20" cellspacing="0" width="600" align="center">
+                    <tr>
+                        <td align="center">
+                            <h1>Olá, Bem Vindo ao Futuro!</h1>
+                        </td>
+                    </tr>
+                </table>
+
+                <table id="main" width="600" align="center" cellpadding="0" cellspacing="15" bgcolor="ffffff">
+                    <tr>
+                        <td>
+                            <table id="header" cellpadding="10" cellspacing="0" align="center">
+                                <tr>
+                                    <td width="570" align="center" bgcolor="#c5a880">
+                                        <h2>$cabecalho</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="570" align="right" bgcolor="#c5a880">
+                                        <p>$mes $ano</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <h1>$Titulo_de_mensagem</h1>
+                            <p style="text-justify: auto;">
+
+                                <strong>Instruções: </strong> Este email é um protótipo para automatização dos envios de
+                                email. Elaborado para atender a necessidade de multiplos
+                                envios para destinatarios diferentes mas de um mesmo conteudo.
+                                <br />
+                                Para que esta tarefa seja realizada com o menos esforço possivel, foi implementado um
+                                algoritmo em python com os seguintes aquivos:
+
+
+                            </p>
+                            <br />
+                            <p>
+                                <strong>Arquivo de Email:</strong> Arquivo ''.txt contendo uma lista de emails
+                                destinatarios.
+                            </p>
+                            <p>
+                                <strong>Arquivo python:</strong> Arquivo ''.python contendo o codigo de envio dos email.
+                            </p>
+                            <p>
+                                <strong>arquivo HTML</strong> Arquivo '.html contendo o conteudo do corpo do email a ser
+                                enviado.
+                            </p>
+                            <br />
+                            <p>
+                                Este email foi encaminhado em: $hora
+                            </p>
+
+                        </td>
+                    </tr>
+                </table>
+                <table id="bottom" cellpadding="20" cellspacing="0" width="600" align="center">
+                    <tr>
+                        <td align="center">
+                            <p>Modificado por Vambaster José da Costa</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
